@@ -1,6 +1,7 @@
 ---
-- hosts: prd
+- hosts: "{{ host }}"
   #user: deployment
+  become: true
   tasks:
   - ping:
   #become: yes
