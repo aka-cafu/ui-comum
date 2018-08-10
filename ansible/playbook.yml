@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: prd
   #user: deployment
   tasks:
   - ping:
