@@ -1,9 +1,9 @@
 ---
 - hosts: servidor
+  tasks:
+    ping:
   #become: yes
   #user: deployment
 
   #roles:
   #  - nginx
-
-  - ping:
