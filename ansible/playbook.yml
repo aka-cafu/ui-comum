@@ -1,9 +1,9 @@
 ---
 - hosts: "{{ host }}"
-  become: yes
+  #become: yes
   user: deployment
   tasks:
-  - shell: pwd
+  - shell: pwd && whoami
 
   #roles:
   #  - nginx
