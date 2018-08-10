@@ -12,7 +12,6 @@
     dest: /usr/share/nginx/html
   when: ansible_distribution == "Amazon"
 
-    
 #- name: restart nginx
 #  service:
 #    name: nginx
