@@ -2,7 +2,7 @@
 - hosts: "{{ host }}"
   become: yes
   #become_user: root
-  remote_user: deployment
+  #remote_user: deployment
   tasks:
   - shell: pwd && whoami && touch /etc/yum.repos.d/nginx
 
