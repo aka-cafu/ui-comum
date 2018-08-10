@@ -1,18 +1,4 @@
 ---
-- name: Install Nginx (amazon linux)
-  shell: yum update && amazon-linux-extras install nginx 1.12
-  become: yes
-
-- name: start nginx
-  service:
-    name: nginx
-    state: started
-
-- name: enable nginx
-  service:
-    name: nginx
-    enabled: yes
-
 - name: copy index.html to directory
   copy:
     src: ../files/index.html
