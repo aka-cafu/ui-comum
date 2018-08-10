@@ -3,12 +3,14 @@
   copy:
     src: ../files/index.html
     dest: /var/www/html/
+    remote_src: yes
   when: ansible_os_family == "Debian"
 
 - name: copy index.html to directory
   copy:
     src: ../files/index.html
     dest: /usr/share/nginx/html
+    remote_src: yes
   when: ansible_distribution == "Amazon"
 
     
