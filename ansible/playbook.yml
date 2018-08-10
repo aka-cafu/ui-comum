@@ -1,7 +1,8 @@
 ---
 - hosts: servidor
   user: deployment
-  tasks:
+  
+- tasks:
     ping:
   #become: yes
 
