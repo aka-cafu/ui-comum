@@ -3,9 +3,9 @@
   #user: deployment
   #become: true
   #user: deployment
-  tasks:
-  - ping:
+  #tasks:
+  #- ping:
   #become: yes
 
-  #roles:
-  #  - nginx
+  roles:
+    - nginx
