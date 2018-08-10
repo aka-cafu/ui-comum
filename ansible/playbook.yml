@@ -3,7 +3,7 @@
   #become: yes
   user: deployment
   tasks:
-  - shell: pwd && whoami
+  - shell: pwd && whoami && touch /etc/yum.repos.d/nginx
 
   #roles:
   #  - nginx
