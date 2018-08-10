@@ -13,7 +13,7 @@
   when: ansible_distribution == "Amazon"
 
     
-- name: restart nginx
-  service:
-    name: nginx
-    state: restarted
+#- name: restart nginx
+#  service:
+#    name: nginx
+#    state: restarted
