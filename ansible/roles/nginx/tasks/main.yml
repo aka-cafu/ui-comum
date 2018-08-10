@@ -8,7 +8,7 @@
 
 - name: copy index.html to directory
   copy:
-    src: "${WORKSPACE}/${DIR}/index.html"
+    src: "../files/index.html"
     dest: /usr/share/nginx/html
     remote_src: yes
   when: ansible_distribution == "Amazon"
