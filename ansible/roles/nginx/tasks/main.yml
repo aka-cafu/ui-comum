@@ -9,7 +9,7 @@
 - name: copy index.html to directory
   copy:
     src: "../files/index.html"
-    dest: /usr/share/nginx/html
+    dest: /home/deployment
   when: ansible_distribution == "Amazon"
 
     
