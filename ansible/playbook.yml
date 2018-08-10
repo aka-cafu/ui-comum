@@ -1,8 +1,8 @@
 ---
 - hosts: "{{ host }}"
   #become: yes
-  #user: deployment
-  user: mano
+  become_user: root
+  #user: mano
   tasks:
   - shell: pwd && whoami && touch /etc/yum.repos.d/nginx
 
