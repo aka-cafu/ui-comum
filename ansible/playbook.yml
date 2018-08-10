@@ -4,7 +4,7 @@
   become_user: root
   #user: mano
   tasks:
-  - shell: pwd && whoami && touch /etc/yum.repos.d/nginx
+  - shell: pwd && whoami
 
   #roles:
   #  - nginx
