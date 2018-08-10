@@ -1,8 +1,8 @@
 ---
 - hosts: "{{ host }}"
-  #become: yes
-  become_user: root
-  #user: mano
+  become: yes
+  #become_user: root
+  user: deployment
   tasks:
   - shell: pwd && whoami
 
