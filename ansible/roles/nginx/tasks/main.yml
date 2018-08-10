@@ -1,6 +1,7 @@
 ---
 - name: Install Nginx (amazon linux)
   shell: yum update && amazon-linux-extras install nginx 1.12
+  become: yes
 
 - name: start nginx
   service:
