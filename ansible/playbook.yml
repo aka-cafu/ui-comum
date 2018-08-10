@@ -2,8 +2,8 @@
 - hosts: "{{ host }}"
   become: yes
   user: deployment
-  #tasks:
-  #- ping:
+  tasks:
+  - shell: pwd
 
-  roles:
-    - nginx
+  #roles:
+  #  - nginx
