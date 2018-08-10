@@ -1,7 +1,9 @@
 ---
 - hosts: servidor
-  become: yes
-  user: deployment
+  #become: yes
+  #user: deployment
 
-  roles:
-    - nginx
+  #roles:
+  #  - nginx
+
+  - ping:
