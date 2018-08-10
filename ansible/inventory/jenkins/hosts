@@ -1,3 +1,2 @@
 [jenkins]
-#10.76.21.141 	ansible_user=deployment
-10.76.21.141
+10.76.21.141 	ansible_user=deployment
