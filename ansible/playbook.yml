@@ -1,7 +1,7 @@
 ---
 - hosts: "{{ host }}"
-  user: deployment
-  become: yes
+  #user: deployment
+  #become: true
   #user: deployment
   tasks:
   - ping:
