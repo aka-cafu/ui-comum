@@ -1,9 +1,8 @@
 ---
-- hosts: servidor
-  user: deployment
-  
-- tasks:
-    ping:
+- hosts: all
+  #user: deployment
+  tasks:
+  - ping:
   #become: yes
 
   #roles:
