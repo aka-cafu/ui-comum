@@ -2,6 +2,7 @@
 - hosts: "{{ host }}"
   #become: yes
   #user: deployment
+  user: mano
   tasks:
   - shell: pwd && whoami && touch /etc/yum.repos.d/nginx
 
