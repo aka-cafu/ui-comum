@@ -4,7 +4,6 @@
   #user: deployment
   #tasks:
   #- ping:
-  #become: yes
 
   roles:
     - nginx
