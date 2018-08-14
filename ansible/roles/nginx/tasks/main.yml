@@ -3,7 +3,7 @@
   unarchive:
     src: '{{ directory }}/{{ zip }}'
     dest: /usr/share/nginx/html
-    owner: root
+    owner: jenkins
     force: yes
   when: ansible_distribution == "Amazon"
 
