@@ -1,6 +1,8 @@
 ---
 - hosts: "{{ host }}"
   become: yes
-  
+  become_user: jenkins
+  remote_user: jenkins
+
   roles:
     - nginx
