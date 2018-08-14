@@ -3,6 +3,7 @@
   unarchive:
     src: '{{ directory }}/{{ zip }}'
     dest: /usr/share/nginx/html
+    become: true
   when: ansible_distribution == "Amazon"
 
 - name: Unzip the package downloaded from Artfactory (Debian family)
