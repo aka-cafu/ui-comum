@@ -13,3 +13,8 @@
     dest: /var/www/html/
     remote_src: yes
   when: ansible_os_family == "Debian"
+
+- name: Remove the zip package
+  file:
+    path: '{{ directory }}/{{ zip }}'
+    state: absent
