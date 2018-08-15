@@ -1,2 +1,2 @@
 [jenkins]
-10.76.21.141    ansible_user=jenkins
+10.76.21.141    ansible_user=deployment

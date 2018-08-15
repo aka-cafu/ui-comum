@@ -1,7 +1,8 @@
 ---
 - hosts: "{{ host }}"
   become: yes
-  become_method: su
+  become_user: root
+  #become_method: su
   #su: yes
   #su_user: root
 
