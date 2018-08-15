@@ -1,7 +1,9 @@
 ---
 - hosts: "{{ host }}"
-  su: yes
-  su_user: root
+  become: yes
+  become_method: su
+  #su: yes
+  #su_user: root
 
   roles:
     - nginx
