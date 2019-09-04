@@ -1,0 +1,4 @@
+buildImage: true
+imageName: felipe/website
+imageTag: ${JOB_NUMBER}
+deployCmd: docker run -d ${imageName}
