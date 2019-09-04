@@ -1,4 +1,4 @@
 buildImage: true
-imageName: &felipe
+imageName: felipe/website
 imageTag: ${JOB_NUMBER}
-deployCmd: docker run -d *felipe
+deployCmd: "docker run -d {{ imageName }}"
